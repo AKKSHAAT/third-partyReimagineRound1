@@ -9,3 +9,5 @@ function add(elementId, path) {
 
 add('banner', 'components/banner.html');
 
+
+add('lol', 'components/lol.html');

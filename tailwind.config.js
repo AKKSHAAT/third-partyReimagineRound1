@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['./*.html', './components/**/*.html'], // Add paths to all of your HTML files here
+    content: ['./*.html', './components/**/*.html'], 
     theme: {
       extend: {},
     },
