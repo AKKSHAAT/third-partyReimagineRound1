@@ -7,7 +7,5 @@ function add(elementId, path) {
         });
 }
 
-add('banner', 'components/banner.html');
-add('hii', 'components/hii.html')
-
-add('lol', 'components/lol.html');
+add('nav', 'components/nav.html');
+add('main', 'components/main.html')
