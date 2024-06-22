@@ -9,3 +9,7 @@ function add(elementId, path) {
 
 add('nav', 'components/nav.html');
 add('main', 'components/main.html')
+add('sec2', 'components/sec2.html')
+add('sec3', 'components/sec3.html')
+
+
