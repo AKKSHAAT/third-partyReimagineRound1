@@ -8,11 +8,12 @@ function add(elementId, path) {
 }
 
 add('nav', 'components/nav.html');
-add('main', 'components/main.html')
+add('hero_section', 'components/hero_section.html')
 add('sec2', 'components/sec2.html')
 add('sec3', 'components/sec3.html')
 add('sec4', 'components/sec4.html')
 add('sec5', 'components/sec5.html')
+add('3d_waffle', 'components/3d_waffle.html')
 
 
 
