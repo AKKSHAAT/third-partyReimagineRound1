@@ -7,3 +7,7 @@
     font-family: nato;
     src: url(/fonts/VintageMohai-DemoVersion-Regular.otf);
 }
+@font-face {
+    font-family: food;
+    src: url(./fonts/Grayson.ttf);
+}
