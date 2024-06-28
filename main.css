@@ -12,6 +12,10 @@
     src: url(./fonts/Grayson.ttf);
 }
 
+/* * {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
 
 .hero { 
     height: 80vh;
@@ -21,3 +25,7 @@
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: space-between;
    }
+/* .features {
+    height: 80vh;
+    background-color: aqua;
+} */
