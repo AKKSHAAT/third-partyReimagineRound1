@@ -48,7 +48,12 @@ box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
     box-shadow: 0 -23px 36px 36px rgba(0, 0, 0, 0.76);
 }
 
-
+.pink-shadow {
+    text-shadow: 12px 8px #FF7872;
+}
+.dark-pink-shadow {
+    text-shadow: 12px 8px #FF428A;
+}
 
 .inter {
     /* inter-font-class-cause-tailwind-aint-working */
