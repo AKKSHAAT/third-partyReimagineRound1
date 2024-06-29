@@ -1,5 +1,6 @@
 # paddind x should be 10
 ## add space between letters in hero
+## add waffle pattern in the background of feature
 
 ## make blury pngs of berries and oreos
 

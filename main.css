@@ -12,10 +12,11 @@
     src: url(./fonts/Grayson.ttf);
 }
 
-/* * {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-} */
 
+.big-text {
+    position: relative; 
+    /* Other styles you might have */
+}
 
 .hero { 
     height: 80vh;
@@ -25,7 +26,30 @@
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: space-between;
    }
-/* .features {
-    height: 80vh;
-    background-color: aqua;
-} */
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.features {
+    -webkit-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
+box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
+}
+
+.features::before {
+    content: '';
+    position: absolute;
+    top: -36px; /* This should be equal to the negative of the spread radius */
+    left: 0;
+    right: 0;
+    height: 36px; /* This should be equal to the spread radius */
+    box-shadow: 0 -23px 36px 36px rgba(0, 0, 0, 0.76);
+}
+
+
+
+.inter-font-class-cause-tailwind-aint-working {
+    font-family: "Inter", sans-serif;
+}

@@ -3,7 +3,9 @@ module.exports = {
     theme: {
       extend: {
         fontFamily: {
-        customFont: ["inter", "lato", "helvitica", "sans-serif", "Arial"],
+        inter: ['Inter', 'sans-serif'],
+        lato: [ "lato","helvitica", "sans-serif", "Arial"],
+        comic: ['comic sans']
         
         },
       },
