@@ -11,6 +11,7 @@ add('nav', 'components/nav.html');
 add('hero_section', 'components/hero_section.html');
 add('features', 'components/features.html');
 add('horizontal_scroll', './components/horizontal_scroll.html');
+add('aboutus', './components/aboutus.html');    
 add('sec2', 'components/sec2.html')
 add('sec3', 'components/sec3.html')
 add('sec4', 'components/sec4.html')
