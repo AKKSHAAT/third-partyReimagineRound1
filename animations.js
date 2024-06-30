@@ -8,6 +8,9 @@ function initAnimations() {
         gsap.from('#lol', {
             'background-color': 'red'
         });
+
+
+        
     }
 }
 
