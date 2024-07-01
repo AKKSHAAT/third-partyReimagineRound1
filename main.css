@@ -34,18 +34,14 @@
 
 .features {
     -webkit-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
-}
+    -moz-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
+    box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
 
-.features::before {
-    content: '';
-    position: absolute;
-    top: -36px; /* This should be equal to the negative of the spread radius */
-    left: 0;
-    right: 0;
-    height: 36px; /* This should be equal to the spread radius */
-    box-shadow: 0 -23px 36px 36px rgba(0, 0, 0, 0.76);
+    background-image: url('/images/pattern_bg_pink.png');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    position: relative; /
 }
 
 .pink-shadow {
