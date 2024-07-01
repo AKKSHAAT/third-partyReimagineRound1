@@ -26,4 +26,4 @@ add('3d_waffle', 'components/3d_waffle.html');
 add('regular_Waffles', 'components/regular_Waffles.html');
 add('premix', 'components/premix.html');
 add('product-List', './components/product-List.html');
-add('gsap', './components/gsap.html');
+

@@ -1,16 +1,17 @@
 function initAnimations() {
     if (document.getElementById('img1')) {
         //_____________Paste_Animations_Here_____________
-        gsap.from("#img1", {
-            opacity: 0
-        });
+        var tl=gsap.timeline()
+        tl.from(".text-loader",{
+            opacity:0,
+            duration:0.7,
+            stagger:{
+                each:0.14,
+                repeat:1,
+                yoyo:true
+            }
+        })
 
-        gsap.from('#lol', {
-            'background-color': 'red'
-        });
-
-
-        
     }
 }
 
