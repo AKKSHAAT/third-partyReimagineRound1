@@ -27,3 +27,29 @@ add('regular_Waffles', 'components/regular_Waffles.html');
 add('premix', 'components/premix.html');
 add('product-List', './components/product-List.html');
 add('Spreads', './components/spreads.html');
+add('footer', './components/footer.html');
+
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+        let lastScrollTop = 0;
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+            if (scrollTop > lastScrollTop) {
+                // Downscroll
+                navbar.style.top = '-100%';
+                navbar.style.transition="all ease-in-out 1s"
+            } else {
+                // Upscroll
+                navbar.style.top = '0';
+                 navbar.style.transition="all ease-in-out 1s"
+            }
+
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop; // For Mobile or negative scrolling
+        });
+    });
+

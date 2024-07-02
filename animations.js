@@ -1,21 +1,29 @@
 function initAnimations() {
     if (document.getElementById('img1')) {
         //_____________Paste_Animations_Here_____________
-        var tl=gsap.timeline()
-        tl.from(".text-loader",{
-            opacity:0,
-            duration:0.7,
-            stagger:{
-                each:0.14,
-                repeat:1,
-                yoyo:true
-            }
-        })
+       
 
     }
 }
+var tl=gsap.timeline()
+ tl.to(".loader",{
+    opacity:"0",
+    delay:2.5,
+    duration:.5,
+    ease:"ease-out"
+ })
+ tl.to(".loader",{
+    display:"none"
+ })
 
+ $(document).ready(function () {
+    // ELEMENTS
+    var $scramble = $(".scramble");
+  
+    $scramble.scramble(500, 30, "alphabet", true);
+  });
 
+  let words=document.querySelector(".Experience").split
 
 
 
