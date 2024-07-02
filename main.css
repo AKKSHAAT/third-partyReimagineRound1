@@ -47,12 +47,24 @@
     -moz-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
     box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
 
-    background-image: url('/images/pattern_bg_pink.png');
+    background-image: url('/images/pattern_bg_pink_s.png');
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    position: relative; /
+    position: relative; 
+    top: 0;
+    left: 0;
+    animation: pan 10s linear infinite;
 }
+
+@keyframes pan {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 100%;
+    }
+  }
 
 .pink-shadow {
     text-shadow: 12px 8px #FF7872;
