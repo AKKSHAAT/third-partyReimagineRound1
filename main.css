@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    pointer-events: none;
 }
 @font-face {
     font-family: nato;
@@ -10,6 +11,10 @@
 @font-face {
     font-family: food;
     src: url(./fonts/Grayson.ttf);
+}
+@font-face {
+    font-family: gilroy;
+    src: url(./fonts/Gilroy-Bold.ttf);
 }
 
 
@@ -25,6 +30,7 @@
     display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
     display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
     justify-content: space-between;
+    
    }
 
 
