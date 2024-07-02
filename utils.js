@@ -15,7 +15,7 @@ function add(elementId, path) {
         });
 }
 
-add('Landing', 'components/Landing.html');
+// add('Landing', 'components/Landing.html');
 add('nav', 'components/nav.html');
 add('hero_section', 'components/hero_section.html');
 add('features', 'components/features.html');
@@ -26,4 +26,4 @@ add('3d_waffle', 'components/3d_waffle.html');
 add('regular_Waffles', 'components/regular_Waffles.html');
 add('premix', 'components/premix.html');
 add('product-List', './components/product-List.html');
-
+add('Spreads', './components/spreads.html');
