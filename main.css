@@ -131,7 +131,7 @@ nav ul li:nth-child(4):hover:after {
     height: 100vh;
     position: absolute;
     background-color: #E8AB35;
-    animation: false 3s;
+    animation: false 2s;
     font-family: chaney;
 }
 
@@ -176,7 +176,7 @@ nav ul li:nth-child(4):hover:after {
     bottom: 10%;
     height: 100%;
     border-radius: 4px;
- animation: load 3s;
+ animation: load 2s;
 }
 @keyframes load{
     0%{
