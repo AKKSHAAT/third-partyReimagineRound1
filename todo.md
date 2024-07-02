@@ -1,9 +1,9 @@
-## paddind x should be 10
+ paddind x should be 10
 
-## add space between letters in hero
+ add space between letters in hero
 ## add waffle pattern in the background of feature
 
-## make blury pngs of berries and oreos
+ make blury pngs of berries and oreos
 ## add waffle cakes and ceo photo
 ## add sticky schroll
 # add fontawsome icons
