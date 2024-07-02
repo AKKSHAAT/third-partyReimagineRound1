@@ -1,16 +1,18 @@
  paddind x should be 10
 
  add space between letters in hero
-## add waffle pattern in the background of feature
+ add waffle pattern in the background of feature
 
  make blury pngs of berries and oreos
-## add waffle cakes and ceo photo
+and ceo photo
+ add plate waffle at horizontal scroll
+
+## add waffle cakes 
 ## add sticky schroll
 # add fontawsome icons
-
-# add plate waffle at horizontal scroll
-
 # add blueberriessss somehow
+
+
 
 
 
