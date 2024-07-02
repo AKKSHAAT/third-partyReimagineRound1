@@ -8,6 +8,8 @@
 ## add sticky schroll
 # add fontawsome icons
 
+# add plate waffle at horizontal scroll
+
 # add blueberriessss somehow
 
 
