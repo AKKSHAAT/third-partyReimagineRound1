@@ -1,41 +1,33 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    pointer-events: none;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  pointer-events: none;
 }
 @font-face {
-    font-family: nato;
-    src: url(/fonts/VintageMohai-DemoVersion-Regular.otf);
+  font-family: nato;
+  src: url(/fonts/VintageMohai-DemoVersion-Regular.otf);
 }
 @font-face {
-    font-family: food;
-    src: url(./fonts/Grayson.ttf);
+  font-family: food;
+  src: url(./fonts/Grayson.ttf);
 }
 @font-face {
-    font-family: gilroy;
-    src: url(./fonts/Gilroy-Bold.ttf);
+  font-family: gilroy;
+  src: url(./fonts/Gilroy-Bold.ttf);
 }
 
-
-.big-text {
-    position: relative; 
-    /* Other styles you might have */
+.hero {
+  height: 80vh;
+  display: -webkit-box; /* OLD - iOS 6-, Safari 3.1-6, BB7 */
+  display: -ms-flexbox; /* TWEENER - IE 10 */
+  display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
+  display: flex; /* NEW, Spec - Firefox, Chrome, Opera */
+  justify-content: space-between;
 }
-
-.hero { 
-    height: 80vh;
-    display: -webkit-box;  /* OLD - iOS 6-, Safari 3.1-6, BB7 */
-    display: -ms-flexbox;  /* TWEENER - IE 10 */
-    display: -webkit-flex; /* NEW - Safari 6.1+. iOS 7.1+, BB10 */
-    display: flex;         /* NEW, Spec - Firefox, Chrome, Opera */
-    justify-content: space-between;
-    
-   }
-
 
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 /* .spread {
@@ -49,188 +41,186 @@
 } */
 
 .features {
-    -webkit-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
-    box-shadow: 0px 99px 135px -22px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 0px 99px 135px -22px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 99px 135px -22px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 99px 135px -22px rgba(0, 0, 0, 0.75);
 
-    background-image: url('/images/pattern_bg_pink_s.png');
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    position: relative; 
-    top: 0;
-    left: 0;
-    animation: pan 10s linear infinite;
+  background-image: url("/images/pattern_bg_pink_s.png");
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  position: relative;
+  top: 0;
+  left: 0;
+  animation: pan 10s linear infinite;
 }
 
 @keyframes pan {
-    0% {
-      background-position: 0% 0%;
-    }
-    100% {
-      background-position: 100% 100%;
-    }
+  0% {
+    background-position: 0% 0%;
   }
+  100% {
+    background-position: 100% 100%;
+  }
+}
 
 .pink-shadow {
-    text-shadow: 12px 8px #FF7872;
+  text-shadow: 12px 8px #ff7872;
 }
 .dark-pink-shadow {
-    text-shadow: 12px 8px #FF428A;
+  text-shadow: 12px 8px #ff428a;
 }
 
 .inter {
-    /* inter-font-class-cause-tailwind-aint-working */
-    font-family: "Inter", sans-serif;
+  /* inter-font-class-cause-tailwind-aint-working */
+  font-family: "Inter", sans-serif;
 }
-
 
 .lato {
-    /* inter-font-class-cause-tailwind-aint-working */
-    font-family: "lato", sans-serif;
+  /* inter-font-class-cause-tailwind-aint-working */
+  font-family: "lato", sans-serif;
 }
 .playfair {
-    font-family: "Playfair Display", serif;
+  font-family: "Playfair Display", serif;
 }
-.order-btn{
-    background-color: #FCCB24;
-    box-shadow: 7px 5px #FF7872;
+.order-btn {
+  background-color: #fccb24;
+  box-shadow: 7px 5px #ff7872;
 }
 
 .order-btn:hover {
-    box-shadow: 10px 8px #FF7872;
+  box-shadow: 10px 8px #ff7872;
 }
 nav ul li {
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 nav ul li:after {
-    content: "";
-    width: 0; /* Start width */
-    height: 2px;
-    background-color: white;
-    position: absolute;
-    left: 50%; /* Center horizontally */
-    bottom: 0; /* Position at the bottom */
-    transform: translateX(-50%); /* Center the underline */
-    transition: width .1s ease-in-out; /* Apply transition to width */
+  content: "";
+  width: 0; /* Start width */
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  left: 50%; /* Center horizontally */
+  bottom: 0; /* Position at the bottom */
+  transform: translateX(-50%); /* Center the underline */
+  transition: width 0.1s ease-in-out; /* Apply transition to width */
 }
 
 nav ul li:hover:after {
-    width: 4vw; /* Default end width on hover, can be adjusted per li below */
+  width: 4vw;
 }
 
 nav ul li:nth-child(2):hover:after {
-    width: 5vw; /* End width on hover */
+  width: 5vw; /* End width on hover */
 }
 
 nav ul li:nth-child(3):hover:after {
-    width: 6vw; /* End width on hover */
+  width: 6vw; /* End width on hover */
 }
 
 nav ul li:nth-child(4):hover:after {
-    width: 5vw; /* End width on hover */
+  width: 5vw; /* End width on hover */
 }
 .loader {
-    width: 100%;
-    height: 100vh;
-    position: absolute;
-    background-color: #E8AB35;
-    animation: false 2s;
-    font-family: chaney;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  background-color: #e8ab35;
+  animation: falseAnimation 2s;
+  font-family: chaney;
 }
 
 .zoom {
-    top: 50%;
-    left: 50%;
-    position: absolute;
-    font-size: 13vw;
-    transform: translate(-50%, -50%) rotate(-5deg);
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-    outline: none;
-    font-weight: 200;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  font-size: 13vw;
+  transform: translate(-50%, -50%) rotate(-5deg);
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+  outline: none;
+  font-weight: 200;
 }
 
+
+
+
 .loader h1 {
-    position: absolute;
-    top: 45%;
-    left: 55%;
-    transform: rotate(-7deg) translate(-50%, -50%);
-    font-size: 5vw;
-    font-family: chaney;
-    color: white;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: rotate(-7deg) translate(-50%, -50%);
+  font-size: 5vw;
+  font-family: chaney;
+  color: white;
 }
 
 .loading {
-    left: 50%;
-    width: 50%;
-    bottom: -65%;
-    height: 10px;
-    background-color: white;
-    position: relative;
-    transform: translate(-50%, -50%) rotate(-7deg);
-    border-radius: 4px;
-    overflow: hidden;
-    display: inline-block;
+  left: 50%;
+  width: 50%;
+  bottom: -65%;
+  height: 10px;
+  background-color: white;
+  position: relative;
+  transform: translate(-50%, -50%) rotate(-7deg);
+  border-radius: 4px;
+  overflow: hidden;
+  display: inline-block;
 }
 
 .loading::after {
-    content: "";
-    position: absolute;
-    bottom: 10%;
-    height: 100%;
-    border-radius: 4px;
- animation: load 2s;
+  content: "";
+  position: absolute;
+  bottom: 10%;
+  height: 100%;
+  border-radius: 4px;
+  animation: load 2s;
 }
-@keyframes load{
-    0%{
-        width: 0;
-        background-color: #a28089;
-
-    }
-    25%{
-        width: 25%;
-        background-color: #a02deb;
-    }
-    50%{
-        width: 50%;
-        background-color: #d0bdf4;
-    }
-    75%{
-        width: 75%;
-        background-color: #d2d2d2;
-    }
-    100%{
-        width: 100%;
-        background-color: rgb(250, 195, 8);
-    }
+@keyframes load {
+  0% {
+    width: 0;
+    background-color: #a28089;
+  }
+  25% {
+    width: 25%;
+    background-color: #a02deb;
+  }
+  50% {
+    width: 50%;
+    background-color: #d0bdf4;
+  }
+  75% {
+    width: 75%;
+    background-color: #d2d2d2;
+  }
+  100% {
+    width: 100%;
+    background-color: rgb(250, 195, 8);
+  }
 }
-    @keyframes false{
-        0%{
-            background-color: #a28089;
-    
-        }
-        25%{
-
-            background-color: #a02deb;
-        }
-        50%{
-    
-            background-color: #d0bdf4;
-        }
-        75%{
-      
-            background-color: #d2d2d2;
-        }
-        100%{
-          
-            background: linear-gradient(to bottom right, #E8B530, #ED5265);
+@keyframes falseAnimation {
+  0% {
+    background-color: #a28089;
+  }
+  25% {
+    background-color: #a02deb;
+  }
+  50% {
+    background-color: #d0bdf4;
+  }
+  75% {
+    background-color: #d2d2d2;
+  }
+  100% {
+    background: linear-gradient(to bottom right, #e8b530, #ed5265);
+  }
 }
-        }
-    
-    
 
 
-
+.treat {
+    position: relative;
+    bottom: 15rem;
+    text-align: center;
+}

@@ -38,7 +38,7 @@ trigger:".treat",
 scroller:"body",
 start:"80% 90%",
 end:"90% 90%",
-scrub:2
+// scrub:2
     },
     opacity:0,
     y: 300,
