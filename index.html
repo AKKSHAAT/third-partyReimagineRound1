@@ -17,57 +17,74 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
-    <!-- loader  animation-->
-    <!-- <div class="loader fixed top-0 z-50">
-        <h2 class="zoom">THIRD PARTY</h2>
-        <h1 class="scramble ">THIRD PARTY</h1>
-  <div class="loading"></div>
-    </div> -->
-    <!-- navbar -->
-    <div id="navbar" class="w-full bg-transparent flex items-center justify-between px-10 py-5 top-0 mb-8 fixed z-30 overflow-hidden box-border">
-        <div class="logo ">
-            <img class="w-[6rem]" src="/images/logo.png" alt="">
+    <div class="wrapper-class">
+
+
+            <!-- loader  animation-->
+            <!-- <div class="loader fixed top-0 z-50">
+                <h2 class="zoom">THIRD PARTY</h2>
+                <h1 class="scramble ">THIRD PARTY</h1>
+                <div class="loading"></div>
+            </div> -->
+            
+            
+            <!-- navbar -->
+            <nav id="navbar" class="w-full bg-transparent flex items-center justify-between lg:px-10 lg:py-5 pt-4 top-0 mb-8 fixed z-30 overflow-hidden ">
+                <div class="logo ">
+                    <img class="w-[6rem]" src="/images/logo.png" alt="">
+                </div>
+                <div>
+                    <ul id="navItem" class="flex transition-all ease-in-out duration-500 items-center gap-16 text-white font-medium font-lato pr-12">
+                        <li>Call us</li>
+                        <li>About us</li>
+                        <li>Nutritional</li>
+                        <li>Buy stuff</li>
+                    </ul>
+                </div>
+            </nav>
+            
+            
+            <!-- components -->
+             
+        <div id="hero_section"></div>
+        
+        <div id="features"></div>
+            
+        <div class="w-full flex justify-center items-center absolute z-40 ">
+            <h2 class="inter treat flex bottom-[12rem] text-white font-black lg:text-[300px] text-end z-10">
+                TREAT
+            </h2>
         </div>
-        <nav>
-            <ul id="navItem" class="flex transition-all ease-in-out duration-500 items-center gap-16 text-white font-medium font-lato pr-12">
-                <li>Call us</li>
-                <li>About us</li>
-                <li>Nutritional</li>
-                <li>Buy stuff</li>
-            </ul>
-        </nav>
+
+        <div id="horizontal_scroll"></div>
+
+
+         <div id="aboutus"></div>
+
+        <!-- issue ⛔ -->
+        <div id="waffle_cakes"></div>
+        
+        <div id="regular_Waffles"></div>
+        
+        <div id="premix"></div>
+        
+
+        <!-- issue⛔ -->
+        <div id="Spreads"></div>
+        <div id="footer"></div>
+        
     </div>
-    
-
-    <!-- components -->
-    <div id="hero_section"></div>
-    <div id="features"></div>
-
-    <div class="w-full flex justify-center items-center absolute z-40 ">
-        <h2 class="inter treat flex bottom-[16rem] text-white font-black lg:text-[300px] text-end z-10">
-            TREAT
-        </h2>
-    </div>
-
-    <div id="horizontal_scroll"></div>
-    <div id="aboutus"></div>
-     <div id="waffle_cakes"></div>
-    <div id="regular_Waffles"></div>
-    <div id="premix"></div>
-    <div id="Spreads"></div>
-    <div id="footer"></div>
-
-    <script src="tailwind.config.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
-    <!-- ScrollTrigger Plugin -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
-    <script src="descrambler.js"></script>
-    <script src="utils.js"></script>
-    <script src="https://kit.fontawesome.com/d011f3027e.js" crossorigin="anonymous"></script>
-    <script src="animations.js"></script>
-    <script src="descreamble.js"></script>
+        <script src="tailwind.config.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+        <!-- ScrollTrigger Plugin -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js"></script>
+        <script src="descrambler.js"></script>
+        <script src="utils.js"></script>
+        <script src="https://kit.fontawesome.com/d011f3027e.js" crossorigin="anonymous"></script>
+        <script src="animations.js"></script>
+        <script src="descreamble.js"></script>
 </body>
 </html>

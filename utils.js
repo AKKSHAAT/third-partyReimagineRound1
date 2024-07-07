@@ -28,6 +28,7 @@ add('premix', 'components/premix.html');
 add('product-List', './components/product-List.html');
 add('Spreads', './components/spreads.html');
 add('footer', './components/footer.html');
+add('product-List-spread', './components/product-List-spread.html');
 
 
 
