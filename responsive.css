@@ -1,5 +1,11 @@
 @media (max-width: 768px) {
 
+    #product-card {
+        margin: 0.5rem;
+        width: 42vw;
+        height: 45vw;
+        padding-top: 1rem;
+    }
     #navbar {
         padding: 1rem 2rem 0 1rem;
         justify-content: center;
